@@ -61,11 +61,11 @@ Thermostat.prototype = {
 
   energyUsage: function() {
     if (this._temperature < this._MEDIUM_ENERGY_USAGE_LIMIT) {
-      return 'low-usage';
+      return 'green';
     }
     if (this._temperature < this._PSM_ON_MAX_TEMP) {
-      return 'medium-usage';
+      return '#CCCC00';
     }
-    return 'high-usage';
+    return 'red';
   },
 };
