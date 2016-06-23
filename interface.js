@@ -15,7 +15,16 @@ $(document).ready(function(){
     thermostat.resetTemperature();
     updateTemperature();
   })
+  $('#psmon').click(function(){
+    thermostat.switchPowerSavingModeOn();
+    $('#PSM').text('ON');
+  })
+  $('#psmoff').click(function(){
+    thermostat.switchPowerSavingModeOff();
+    $('#PSM').text('OFF');
+  })
   function updateTemperature(){
     $('#temperature').text(thermostat._temperature);
   }
+
 })
