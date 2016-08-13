@@ -1,5 +1,6 @@
 ### Thermostat
 
+### Makers Academy intro to JavaScript
 
 ### Challenge setup
 
@@ -17,3 +18,8 @@ Specification:
 
 ### Learning Objectives covered
 * Use Jasmine to Test-Drive Development of a thermostat
+
+### Instructions
+
+To run the tests open SpecRunner.html in the browser
+To access the single page JavaScript thermostat open index.html in the browser
